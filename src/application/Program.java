@@ -6,7 +6,6 @@ import chess.ChessMatch;
 
 public class Program {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         ChessMatch chessMatch = new ChessMatch();
         UI.printboard(chessMatch.getPieces());
 
